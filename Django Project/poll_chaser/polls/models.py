@@ -9,7 +9,9 @@ class Question(models.Model):
         return self.question_text
     def was_published_recently(self):
         now = timezone.now()
-        return now - datetime.timedelta(days=1) <= self.pub_date <= now
+        one_day_ago = now - datetime.timedelta(days=1)
+        has_choices = len(self.choice_set.all()) > 0
+        return one_day_ago <= self.pub_date <= now and has_choices
 
 class Choice(models.Model):
     question = models.ForeignKey(Question, on_delete=models.CASCADE)
