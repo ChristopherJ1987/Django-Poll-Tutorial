@@ -4,7 +4,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: whitesmoke;
 }
 li a {
-    color: green;
+    color: rgb(69, 96, 69);
 }
