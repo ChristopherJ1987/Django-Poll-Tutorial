@@ -7,6 +7,6 @@ body {
     color: whitesmoke;
 }
 li a {
-    color: rgb(69, 96, 69);
-    text-shadow: 4px 5px 7px rgba(69,96,69,0.6);
+    color: whitesmoke;
+    text-decoration: none;
 }
