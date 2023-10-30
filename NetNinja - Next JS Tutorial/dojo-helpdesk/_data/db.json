@@ -27,6 +27,13 @@
       "priority": "low",
       "user_email": "mario@netninja.dev",
       "id": "RbRqu2C"
+    },
+    {
+      "title": "Get ready for Friday",
+      "body": "Project presentation is on Friday, need to get application ready to show",
+      "priority": "high",
+      "user_email": "mario@netninja.dev",
+      "id": "2Uzpf65"
     }
   ]
 }
